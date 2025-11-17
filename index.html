@@ -36,6 +36,30 @@
         .subscribe-btn:hover {
             background-color: #218838;
         }
+        .social-login {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .social-btn {
+            padding: 10px 20px;
+            margin: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            background: white;
+        }
+        .social-btn.facebook {
+            background: #1877f2;
+            color: white;
+            border: none;
+        }
+        .social-btn.google {
+            background: #db4437;
+            color: white;
+            border: none;
+        }
     </style>
 </head>
 <body>
@@ -48,5 +72,11 @@
     </div>
 
     <button class="subscribe-btn">Подписаться на новости</button>
+
+    <div class="social-login">
+        <h3>Войти через социальные сети:</h3>
+        <button class="social-btn facebook">Facebook</button>
+        <button class="social-btn google">Google</button>
+    </div>
 </body>
 </html>
